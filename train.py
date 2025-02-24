@@ -55,7 +55,7 @@ def probar_chatbot(model, tokenizer):
         print("Respuesta: ", categorias[indice])
 
 if __name__ == "__main__":
-    archivo_datos = "data/dataset.txt"  # Asegúrate de tener un archivo con preguntas y respuestas
+    archivo_datos = "data/prueba.txt"  # Asegúrate de tener un archivo con preguntas y respuestas
     preguntas, respuestas = cargar_datos(archivo_datos)
     x_train, y_train, tokenizer = preprocesar_datos(preguntas, respuestas)
     modelo = construir_modelo(tokenizer)
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
     # Guardar el tokenizer
     with open("models/tokenizer.pkl", "wb") as f:
-        pickle.dump(tokenizer, f)
+        pickle.dump(tokenizer, f, protocol=pickle.HIGHEST_PROTOCOL)
 
     
     # Descomenta para probar el chatbot
