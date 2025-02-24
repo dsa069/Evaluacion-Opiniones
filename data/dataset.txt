@@ -198,3 +198,103 @@ No confíen en esta tienda, pésimo todo. ; 2
 El pedido nunca llegó, una estafa. ; 2
 No tiene nada que ver con lo que anunciaban. ; 2
 Malísimo, no lo volvería a comprar. ; 2
+El producto está bien, aunque esperaba más. ; 0
+El servicio fue aceptable, nada especial. ; 0
+Cumple con lo prometido, pero no destaca. ; 0
+No está mal, pero podría mejorar. ; 0
+Un producto regular, ni bueno ni malo. ; 0
+La experiencia fue normal, sin sorpresas. ; 0
+Lo recibí a tiempo, pero no me emocionó. ; 0
+No es lo mejor, pero tampoco lo peor. ; 0
+Es funcional, aunque esperaba algo más. ; 0
+Nada extraordinario, solo cumple su función. ; 0
+Está bien por el precio, pero sin destacar. ; 0
+Un servicio decente, sin grandes problemas. ; 0
+El diseño es bueno, pero la calidad normal. ; 0
+Recibí lo que pedí, sin más. ; 0
+No tuve problemas, pero tampoco fue excepcional. ; 0
+El producto es aceptable, aunque mejorable. ; 0
+Nada fuera de lo común, solo correcto. ; 0
+No me sorprendió ni para bien ni para mal. ; 0
+Está bien para lo que cuesta. ; 0
+No tengo quejas graves, pero tampoco elogios. ; 0
+Un producto promedio, cumple su función. ; 0
+Normal, nada destacable. ; 0
+Es útil, pero esperaba algo diferente. ; 0
+El material no es malo, pero tampoco excelente. ; 0
+Funciona como se describe, sin más. ; 0
+Un servicio estándar, sin inconvenientes. ; 0
+El empaque llegó bien, pero sin nada especial. ; 0
+El trato fue correcto, sin destacar. ; 0
+Un producto común, sin sorpresas. ; 0
+Recibí el pedido, pero tardó un poco. ; 0
+Podría ser mejor, pero tampoco es malo. ; 0
+No está mal, pero no lo recomendaría con entusiasmo. ; 0
+Una compra sin complicaciones, pero tampoco memorable. ; 0
+Sirve para lo que es, sin nada más. ; 0
+Nada especial, simplemente aceptable. ; 0
+La atención fue justa, sin ser excelente. ; 0
+El precio está bien para lo que se ofrece. ; 0
+No me impresionó, pero tampoco me decepcionó. ; 0
+La experiencia fue neutral, sin problemas graves. ; 0
+Cumple con lo básico, pero no sorprende. ; 0
+Es justo lo que esperaba, nada más. ; 0
+No me generó una gran impresión. ; 0
+El servicio podría ser más eficiente. ; 0
+Nada del otro mundo, simplemente funcional. ; 0
+Podría haber sido mejor, pero no es terrible. ; 0
+El envío fue normal, sin inconvenientes. ; 0
+No destaca, pero tampoco es malo. ; 0
+Un producto más en el mercado, sin novedades. ; 0
+Está bien, aunque hay opciones mejores. ; 0
+El resultado fue neutral, sin emociones fuertes. ; 0
+Funciona, pero podría mejorarse. ; 0
+Es un producto correcto, pero sin sorpresas. ; 0
+No tengo quejas, pero tampoco entusiasmo. ; 0
+No es la mejor opción, pero tampoco la peor. ; 0
+El servicio fue estándar, sin problemas. ; 0
+No fue una gran compra, pero tampoco mala. ; 0
+El diseño es bonito, pero la calidad regular. ; 0
+Nada memorable, solo un producto más. ; 0
+Recibí lo que pedí, sin sorpresas. ; 0
+Esperaba un poco más, pero no está mal. ; 0
+El artículo es decente, sin ser excelente. ; 0
+Nada espectacular, simplemente un producto más. ; 0
+El trato fue correcto, sin inconvenientes. ; 0
+Funciona bien, pero podría ser mejor. ; 0
+No me impresionó, pero tampoco decepcionó. ; 0
+Está bien, aunque no lo volvería a comprar. ; 0
+La calidad es justa para el precio. ; 0
+No tengo quejas graves, pero tampoco elogios. ; 0
+Una compra neutral, sin problemas. ; 0
+Es funcional, aunque podría mejorarse. ; 0
+Un producto ordinario, nada extraordinario. ; 0
+El empaque llegó bien, pero sin detalles extras. ; 0
+Un servicio estándar, sin mayores inconvenientes. ; 0
+No es lo mejor, pero cumple su propósito. ; 0
+Un producto adecuado, sin destacar. ; 0
+Nada especial, pero cumple con lo prometido. ; 0
+Recibí lo que compré, sin más. ; 0
+Nada que destacar, solo aceptable. ; 0
+El tiempo de entrega fue correcto, sin retrasos. ; 0
+No me encantó, pero tampoco me disgustó. ; 0
+La atención fue neutral, sin problemas. ; 0
+Nada fuera de lo común, solo normal. ; 0
+Cumple su función, aunque podría ser mejor. ; 0
+Un servicio decente, sin mayores inconvenientes. ; 0
+Funciona correctamente, sin ser excepcional. ; 0
+No tengo quejas, pero tampoco lo recomendaría. ; 0
+Una experiencia sin altibajos, solo correcta. ; 0
+No destacó, pero tampoco decepcionó. ; 0
+El producto es útil, pero no extraordinario. ; 0
+Nada especial, simplemente hace su trabajo. ; 0
+Una compra regular, sin sorpresas. ; 0
+No es excelente, pero tampoco malo. ; 0
+Está bien para lo que pagué. ; 0
+Funciona como se describe, sin ser espectacular. ; 0
+Una compra sin problemas, pero sin emoción. ; 0
+No hay mucho que decir, simplemente bien. ; 0
+El artículo llegó en buen estado, sin extras. ; 0
+Recibí mi compra a tiempo, sin más. ; 0
+Un producto funcional, pero sin características destacadas. ; 0
+Es lo que esperaba, ni más ni menos. ; 0
