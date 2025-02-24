@@ -811,3 +811,33 @@ Hace su trabajo, sin sorpresas. ; 0
 A ver, no está mal, pero tampoco me alucina. ; 0
 Un producto más, sin nada destacable. ; 0
 Ni frío ni calor, normal. ; 0
+La atención al detalle fue impecable. ; 1
+Los productos siempre llegan en excelente estado. ; 1
+La calidad es inigualable, sin duda repetiré. ; 1
+Una compra perfecta, muy satisfecho. ; 1
+Mejor de lo que imaginaba, volveré a comprar. ; 1
+El servicio al cliente es inmejorable. ; 1
+Increíble experiencia de compra, todo excelente. ; 1
+El precio y la calidad son perfectos. ; 1
+Nada que mejorar, todo fue perfecto. ; 1
+Volveré a comprar sin dudar, muy recomendado. ; 1
+El producto dejó de funcionar al segundo día. ; 2
+No me enviaron lo que pedí, un desastre. ; 2
+Pésimo servicio, no volveré a comprar aquí. ; 2
+Demasiado caro para lo que es, una estafa. ; 2
+El pedido se retrasó semanas y no dieron solución. ; 2
+El servicio de atención al cliente es inexistente. ; 2
+No funcionó desde el primer día, mala calidad. ; 2
+Publicitan algo que no cumplen, engañoso. ; 2
+Nunca recibí mi pedido y no me devolvieron el dinero. ; 2
+Muy decepcionado, no recomiendo esta tienda. ; 2
+El producto es normal, no destaca en nada. ; 0
+Funciona bien, pero no es nada especial. ; 0
+El envío fue correcto, aunque podría ser más rápido. ; 0
+La atención fue buena, pero sin ser excelente. ; 0
+Es un producto aceptable por el precio. ; 0
+Nada fuera de lo común, simplemente cumple su función. ; 0
+No me impresionó ni para bien ni para mal. ; 0
+El diseño es bueno, pero los materiales regulares. ; 0
+No tengo quejas graves, pero tampoco elogios. ; 0
+Nada memorable, solo un producto más. ; 0
