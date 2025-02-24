@@ -98,3 +98,104 @@ Perfecto, más de lo que esperaba. ; 1
 Definitivamente recomendable. ; 1
 Encantado con mi compra. ; 1
 Sencillamente espectacular. ; 1
+El servicio fue muy deficiente. ; 2
+No recibí lo que esperaba, decepcionante. ; 2
+La calidad del producto deja mucho que desear. ; 2
+El envío tardó demasiado. ; 2
+Muy mala atención al cliente. ; 2
+No volvería a comprar aquí. ; 2
+Producto defectuoso, no funciona correctamente. ; 2
+Mala experiencia, no lo recomiendo. ; 2
+Me enviaron algo completamente diferente. ; 2
+Muy mala relación calidad-precio. ; 2
+La atención fue muy poco profesional. ; 2
+No contestan los mensajes ni llamadas. ; 2
+El producto llegó dañado. ; 2
+No cumplió con mis expectativas. ; 2
+Pésima experiencia de compra. ; 2
+Mucha publicidad engañosa. ; 2
+No vale lo que cuesta. ; 2
+No solucionaron mi problema. ; 2
+Muy mala comunicación con el vendedor. ; 2
+No recomendaría este producto a nadie. ; 2
+Tardaron demasiado en enviar mi pedido. ; 2
+El empaque llegó en muy mal estado. ; 2
+Una total pérdida de dinero. ; 2
+Demasiado caro para lo que ofrecen. ; 2
+No cumplen con lo que prometen. ; 2
+El producto no duró ni una semana. ; 2
+No entiendo las buenas reseñas, es terrible. ; 2
+Muy mala calidad de los materiales. ; 2
+No es como se muestra en las fotos. ; 2
+Intenté devolverlo y fue imposible. ; 2
+Demasiados problemas con este servicio. ; 2
+No me gustó para nada. ; 2
+La peor experiencia de compra que he tenido. ; 2
+Muy mala presentación del producto. ; 2
+La garantía no cubrió el daño. ; 2
+Nada satisfecho con la compra. ; 2
+El precio es excesivo para lo que ofrecen. ; 2
+Muy poco recomendable, mala experiencia. ; 2
+El servicio al cliente no resolvió mi problema. ; 2
+El producto se rompió a los pocos días. ; 2
+No cumplen con los plazos de entrega. ; 2
+Parece usado en vez de nuevo. ; 2
+No entiendo cómo tienen buenas calificaciones. ; 2
+Me arrepiento de haber comprado esto. ; 2
+La calidad es inferior a lo que esperaba. ; 2
+No volveré a comprar en esta tienda. ; 2
+El vendedor fue muy poco atento. ; 2
+Demasiado tiempo de espera para nada. ; 2
+Muy decepcionado con este producto. ; 2
+Se descompuso al primer uso. ; 2
+Nada satisfecho con la atención recibida. ; 2
+El sistema de pago es un desastre. ; 2
+Intenté cancelar y no me dejaron. ; 2
+El empaque llegó roto y abierto. ; 2
+Muy lejos de lo que prometieron. ; 2
+El soporte técnico no sirve de nada. ; 2
+No recomendaría esta tienda a nadie. ; 2
+Parece de juguete, mala calidad. ; 2
+No sirve para lo que dicen. ; 2
+Malísima experiencia, no lo recomiendo. ; 2
+Un completo fraude, no compren aquí. ; 2
+El producto venía incompleto. ; 2
+Tuve que pagar extra por un mal servicio. ; 2
+No obtuve respuesta a mis quejas. ; 2
+El servicio es lento y poco profesional. ; 2
+El producto llegó tarde y en mal estado. ; 2
+No volvería a hacer negocios con ellos. ; 2
+Muy caro y de pésima calidad. ; 2
+Prometieron algo que no cumplieron. ; 2
+No sirve, ni siquiera prende. ; 2
+Muy mal empacado, parecía usado. ; 2
+Nunca recibí mi pedido. ; 2
+Me vendieron un producto defectuoso. ; 2
+Un desastre desde el principio. ; 2
+Pésima relación calidad-precio. ; 2
+No lo recomiendo en absoluto. ; 2
+No fue lo que pedí. ; 2
+Muy por debajo de mis expectativas. ; 2
+No se parece en nada a la descripción. ; 2
+El vendedor fue muy grosero. ; 2
+Intenté contactar y nunca respondieron. ; 2
+Un engaño total, no compren. ; 2
+Demasiados problemas para una simple compra. ; 2
+Muy frustrante la experiencia. ; 2
+Un producto completamente inútil. ; 2
+No volveré a comprarles jamás. ; 2
+No cumplen con la garantía. ; 2
+La descripción es completamente falsa. ; 2
+Perdí mi dinero con este producto. ; 2
+El artículo venía dañado y no me lo cambiaron. ; 2
+Mejor busquen otra opción, esta es pésima. ; 2
+Nada confiable esta tienda. ; 2
+No entiendo cómo pueden vender algo tan malo. ; 2
+El manual de instrucciones es confuso e inútil. ; 2
+Muy insatisfecho con el servicio. ; 2
+La página web es un desastre, no deja comprar bien. ; 2
+Tienen cero atención al cliente. ; 2
+No confíen en esta tienda, pésimo todo. ; 2
+El pedido nunca llegó, una estafa. ; 2
+No tiene nada que ver con lo que anunciaban. ; 2
+Malísimo, no lo volvería a comprar. ; 2
