@@ -1,7 +1,16 @@
 import tensorflow as tf
 import numpy as np
 import os
-import pickle
+import json
+
+# Configurar TensorFlow para usar la GPU si está disponible
+gpu_devices = tf.config.experimental.list_physical_devices('GPU')
+if gpu_devices:
+    for device in gpu_devices:
+        tf.config.experimental.set_memory_growth(device, True)
+    print("✅ GPU detectada y configurada para entrenamiento 🚀")
+else:
+    print("⚠️ No se detectó GPU, se usará CPU")
 
 # Cargar los datos de entrenamiento
 def cargar_datos(archivo):
@@ -42,6 +51,14 @@ def guardar_modelo(model, path='models/modelo.keras'):
     model.save(path)
     print(f'✅ Modelo entrenado y guardado en {path} 🚀')
 
+# Guardar el tokenizer en formato JSON
+def guardar_tokenizer(tokenizer, path='models/tokenizer.json'):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    tokenizer_config = tokenizer.get_config()
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(tokenizer_config, f, ensure_ascii=False)
+    print(f'✅ Tokenizer guardado en {path} 🚀')
+
 # Probar el chatbot
 def probar_chatbot(model, tokenizer):
     while True:
@@ -61,12 +78,7 @@ if __name__ == "__main__":
     modelo = construir_modelo(tokenizer)
     entrenar_modelo(modelo, x_train, y_train)
     guardar_modelo(modelo)
-    import pickle
+    guardar_tokenizer(tokenizer)
 
-    # Guardar el tokenizer
-    with open("models/tokenizer.pkl", "wb") as f:
-        pickle.dump(tokenizer, f, protocol=pickle.HIGHEST_PROTOCOL)
-
-    
     # Descomenta para probar el chatbot
     # probar_chatbot(modelo, tokenizer)
