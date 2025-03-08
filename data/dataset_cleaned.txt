@@ -208,11 +208,9 @@ Gran relación calidad-precio, lo recomiendo. ; 1
 Atención al cliente impecable. ; 1
 Entrega rápida y sin problemas. ; 1
 Es justo lo que buscaba, perfecto. ; 1
-Un 10 en todo, sin dudas. ; 1
 La calidad del producto es espectacular. ; 1
 Muy recomendable, vale cada centavo. ; 1
 Un servicio excepcional, gracias. ; 1
-Mejor de lo que imaginaba. ; 1
 Increíble desde el primer uso. ; 1
 Lo mejor que he probado en mucho tiempo. ; 1
 Sin dudas lo volveré a comprar. ; 1
@@ -225,14 +223,12 @@ La mejor atención que he recibido. ; 1
 Muy feliz con mi compra. ; 1
 Se nota la calidad en cada aspecto. ; 1
 Una compra segura, sin arrepentimientos. ; 1
-Maravillosa experiencia de compra. ; 1
 Un servicio de primera, muy atentos. ; 1
 Atención rápida y eficiente. ; 1
 Mejor imposible, gracias. ; 1
 El producto cumple y supera expectativas. ; 1
 Satisfecho con el resultado. ; 1
 La experiencia de compra fue increíble. ; 1
-Espectacular en todos los sentidos. ; 1
 Tremenda bendición de Dios encontrarme con este producto. ; 1
 Madre mía, esto es una joya. ; 1
 Qué pasada, me ha encantado. ; 1
@@ -298,7 +294,6 @@ No hay nada que lo supere ; 1
 No hay comparación posible ; 1
 Maravilloso en todos los sentidos ; 1
 Perfecto en calidad y precio ; 1
-No puedo creer lo bueno que es ; 1
 No me arrepiento de nada ; 1
 Cada día me gusta más ; 1
 Justo lo que estaba buscando ; 1
@@ -336,7 +331,6 @@ No puedo estar más feliz con este producto ; 1
 Me ha sorprendido en todos los sentidos ; 1
 Un acierto total ; 1
 La mejor compra que he hecho este año ; 1
-No puedo dejar de usarlo ; 1
 Si estás dudando, cómpralo ; 1
 No encontrarás nada mejor ; 1
 Es simplemente perfecto ; 1
@@ -355,7 +349,6 @@ Un verdadero tesoro ; 1
 La mejor opción disponible ; 1
 No hay otro que se le acerque ; 1
 Estoy enamorado de este producto ; 1
-Cada día me gusta más ; 1
 Vale mucho más de lo que cuesta ; 1
 Un producto que destaca en todo ; 1
 Lo mejor que he tenido en mucho tiempo ; 1
@@ -471,10 +464,8 @@ Malísimo, no lo volvería a comprar. ; 2
 Está muy mal. ; 2
 Producto horrible. ; 2
 Vaya basura de producto. ; 2
-No me gustó para nada. ; 2
 Pésima calidad. ; 2
 Me arrepiento de haberlo comprado. ; 2
-No lo recomiendo en absoluto. ; 2
 Muy decepcionado. ; 2
 No vale la pena. ; 2
 Mala compra. ; 2
@@ -506,7 +497,6 @@ Materiales de muy mala calidad. ; 2
 Esperaba algo mejor. ; 2
 Decepcionante en todos los sentidos. ; 2
 Producto inútil. ; 2
-No vale lo que cuesta. ; 2
 Una completa estafa. ; 2
 Horrible experiencia. ; 2
 Lo tuve que devolver. ; 2
@@ -568,74 +558,6 @@ No vale nada. ; 2
 No sé cómo sigue en venta. ; 2
 Muy insatisfecho con esto. ; 2
 Nunca había visto algo tan malo. ; 2
-El servicio fue muy deficiente. ; 2
-La calidad del producto deja mucho que desear. ; 2
-No recibí lo que esperaba, decepcionante. ; 2
-El envío tardó demasiado. ; 2
-No volvería a comprar aquí. ; 2
-Producto defectuoso, no funciona correctamente. ; 2
-Mala experiencia, no lo recomiendo. ; 2
-Me enviaron algo completamente diferente. ; 2
-Muy mala relación calidad-precio. ; 2
-La atención fue muy poco profesional. ; 2
-No contestan los mensajes ni llamadas. ; 2
-El producto llegó dañado. ; 2
-No cumplió con mis expectativas. ; 2
-Pésima experiencia de compra. ; 2
-Mucha publicidad engañosa. ; 2
-No vale lo que cuesta. ; 2
-No solucionaron mi problema. ; 2
-Muy mala comunicación con el vendedor. ; 2
-No recomendaría este producto a nadie. ; 2
-Tardaron demasiado en enviar mi pedido. ; 2
-El empaque llegó en muy mal estado. ; 2
-Una total pérdida de dinero. ; 2
-Demasiado caro para lo que ofrecen. ; 2
-No cumplen con lo que prometen. ; 2
-El producto no duró ni una semana. ; 2
-No entiendo las buenas reseñas, es terrible. ; 2
-Muy mala calidad de los materiales. ; 2
-No es como se muestra en las fotos. ; 2
-Intenté devolverlo y fue imposible. ; 2
-Demasiados problemas con este servicio. ; 2
-No me gustó para nada. ; 2
-La peor experiencia de compra que he tenido. ; 2
-Muy mala presentación del producto. ; 2
-La garantía no cubrió el daño. ; 2
-Nada satisfecho con la compra. ; 2
-El precio es excesivo para lo que ofrecen. ; 2
-Muy poco recomendable, mala experiencia. ; 2
-El servicio al cliente no resolvió mi problema. ; 2
-El producto se rompió a los pocos días. ; 2
-No cumplen con los plazos de entrega. ; 2
-Parece usado en vez de nuevo. ; 2
-No entiendo cómo tienen buenas calificaciones. ; 2
-Me arrepiento de haber comprado esto. ; 2
-La calidad es inferior a lo que esperaba. ; 2
-No volveré a comprar en esta tienda. ; 2
-El vendedor fue muy poco atento. ; 2
-Demasiado tiempo de espera para nada. ; 2
-Muy decepcionado con este producto. ; 2
-Se descompuso al primer uso. ; 2
-Nada satisfecho con la atención recibida. ; 2
-El sistema de pago es un desastre. ; 2
-Intenté cancelar y no me dejaron. ; 2
-El empaque llegó roto y abierto. ; 2
-Muy lejos de lo que prometieron. ; 2
-El soporte técnico no sirve de nada. ; 2
-No recomendaría esta tienda a nadie. ; 2
-Parece de juguete, mala calidad. ; 2
-No sirve para lo que dicen. ; 2
-Un completo fraude, no compren aquí. ; 2
-El producto venía incompleto. ; 2
-Tuve que pagar extra por un mal servicio. ; 2
-No obtuve respuesta a mis quejas. ; 2
-El servicio es lento y poco profesional. ; 2
-El producto llegó tarde y en mal estado. ; 2
-No volvería a hacer negocios con ellos. ; 2
-Muy caro y de pésima calidad. ; 2
-Prometieron algo que no cumplieron. ; 2
-No sirve, ni siquiera prende. ; 2
 Que mierda. ; 2
 Es un mierdón, menuda decepción. ; 2
 Esto es una basura, no lo compren. ; 2
@@ -787,7 +709,6 @@ Pésima calidad en todos los aspectos. ; 2
 Horrible experiencia de compra. ; 2
 No sirve para nada, un desperdicio total. ; 2
 No lo recomiendo ni regalado. ; 2
-No entiendo cómo pueden vender algo tan malo. ; 2
 Un engaño absoluto, no cumple con nada. ; 2
 Es la peor compra que he hecho en años. ; 2
 Me arrepiento totalmente de esta compra. ; 2
@@ -797,7 +718,6 @@ Pésima atención al cliente, nunca responden. ; 2
 No cumplió con mis expectativas en absoluto. ; 2
 La calidad es decepcionante. ; 2
 Se rompió en menos de una semana. ; 2
-No volvería a comprar aquí. ; 2
 Es una pérdida de dinero y tiempo. ; 2
 Un desastre total, no vale la pena. ; 2
 Parece un juguete de mala calidad. ; 2
@@ -806,8 +726,6 @@ No entiendo cómo permiten vender esto. ; 2
 Una tomadura de pelo en toda regla. ; 2
 Me engañaron con la descripción del producto. ; 2
 No funciona como debería, una vergüenza. ; 2
-El peor producto que he comprado. ; 2
-No vale ni la mitad de su precio. ; 2
 Materiales baratos y mal ensamblados. ; 2
 El producto está bien, aunque esperaba más. ; 0
 El servicio fue aceptable, nada especial. ; 0
@@ -876,7 +794,6 @@ Funciona bien, pero podría ser mejor. ; 0
 No me impresionó, pero tampoco decepcionó. ; 0
 Está bien, aunque no lo volvería a comprar. ; 0
 La calidad es justa para el precio. ; 0
-No tengo quejas graves, pero tampoco elogios. ; 0
 Una compra neutral, sin problemas. ; 0
 Es funcional, aunque podría mejorarse. ; 0
 Un producto ordinario, nada extraordinario. ; 0
@@ -914,7 +831,6 @@ Servicio aceptable, pero nada destacable. ; 0
 No es lo que esperaba, pero tampoco está mal. ; 0
 Cumple su función, sin más. ; 0
 Regular, no me impresionó. ; 0
-No es excelente, pero tampoco malo. ; 0
 Algo funcional, pero sin destacar. ; 0
 Me dejó indiferente. ; 0
 Lo usé, pero no me convenció del todo. ; 0
@@ -1010,31 +926,12 @@ Me deja con una sensación de indiferencia. ; 0
 Nada que destacar, pero tampoco nada que reprochar. ; 0
 Simplemente un producto más. ; 0
 El producto es bueno, pero esperaba más. ; 0
-Recibí lo que pedí, sin más. ; 0
-La experiencia fue normal, sin sorpresas. ; 0
 Cumple su función, pero no destaca. ; 0
-Un producto regular, ni bueno ni malo. ; 0
-No es lo mejor, pero tampoco lo peor. ; 0
-Sirve para lo que es, sin nada más. ; 0
-No tengo quejas graves, pero tampoco elogios. ; 0
 Está bien por el precio, aunque mejorable. ; 0
-Funciona como se describe, sin más. ; 0
-No destaca, pero cumple. ; 0
-Esperaba algo más innovador. ; 0
-Nada especial, simplemente hace su trabajo. ; 0
 El envío fue correcto, sin retrasos. ; 0
-Una compra sin problemas, pero sin emoción. ; 0
-El trato fue correcto, sin inconvenientes. ; 0
-Me dejó indiferente. ; 0
-Nada memorable, pero funcional. ; 0
-Se puede usar, pero no destaca. ; 0
-Es justo lo que esperaba, nada más. ; 0
-Producto decente, pero sin más. ; 0
-Pasable, sin ser impresionante. ; 0
 El diseño es bueno, pero la calidad regular. ; 0
 Recibí lo que esperaba, sin sorpresas. ; 0
 Cumple con lo prometido, pero sin sobresalir. ; 0
-Nada extraordinario, solo cumple su función. ; 0
 Un servicio estándar, sin problemas. ; 0
 Pues ni tan mal, cumple su función. ; 0
 No es para tirar cohetes, pero está bien. ; 0
@@ -1046,7 +943,6 @@ Bueno, bonito y… bueno, más o menos. ; 0
 Sin más, no es la gran cosa. ; 0
 Cumple, pero no esperes maravillas. ; 0
 Está pasable, pero tampoco es para emocionarse. ; 0
-Es funcional, aunque esperaba algo más. ; 0
 Parece que está bien, habrá que ver. ; 0
 Nada fuera de lo común, normalito. ; 0
 Bueno, tiene lo suyo, pero no me flipa. ; 0
@@ -1063,8 +959,6 @@ Es un producto aceptable por el precio. ; 0
 Nada fuera de lo común, simplemente cumple su función. ; 0
 No me impresionó ni para bien ni para mal. ; 0
 El diseño es bueno, pero los materiales regulares. ; 0
-No tengo quejas graves, pero tampoco elogios. ; 0
-Nada memorable, solo un producto más. ; 0
 Este producto no está mal, pero tampoco bien ; 0
 Diría que es mediocre, pero cumple su función ; 0
 No es lo mejor, pero tampoco es lo peor ; 0
@@ -1205,23 +1099,19 @@ Un producto correcto, aunque podría ser mejor. ; 0
 Nada espectacular, pero hace su trabajo. ; 0
 No lo recomiendo con entusiasmo, pero tampoco lo descarto. ; 0
 El envío fue lento, pero el producto está bien. ; 0
-No me generó una gran impresión. ; 0
 Lo usaré, pero no me ha sorprendido. ; 0
 Un término medio en calidad y desempeño. ; 0
 Podría ser más barato para lo que ofrece. ; 0
 Está bien para lo que es, pero sin alardes. ; 0
-No tengo quejas graves, pero tampoco elogios. ; 0
 Simplemente cumple, sin más. ; 0
 Nada fuera de lo común, una compra decente. ; 0
 Si no tienes grandes expectativas, te servirá. ; 0
 No fue la mejor compra, pero tampoco la peor. ; 0
-Me dejó indiferente. ; 0
 Un producto promedio, sin puntos fuertes. ; 0
 Funciona como debería, sin sorpresas. ; 0
 Ni bueno ni malo, simplemente está bien. ; 0
 Cumple con lo que promete, pero sin impresionar. ; 0
 No me encantó, pero tampoco me desagradó. ; 0
 Una experiencia neutral, sin sobresaltos. ; 0
-Lo mejor que puedo decir es que funciona. ; 0
 No genera entusiasmo ni decepción. ; 0
 Producto estándar, sin características destacables. ; 0
