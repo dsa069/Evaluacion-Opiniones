@@ -1,71 +1,71 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
+    <title>Evaluación de Opiniones</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opiniones Diego</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Update this line to use the correct path -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 </head>
 <body>
     <div class="container">
-        <h1>Opiniones Diego</h1>
+        <h1>Evaluación de Opiniones</h1>
         <div class="form-container">
-            <form id="opinion-form">
-                <div class="input-group">
-                    <textarea id="opinion" placeholder="Escribe tu opinión aquí..." required></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Evaluar opinión</button>
-            </form>
+            <div class="input-group">
+                <textarea id="opinion" placeholder="Escribe tu opinión aquí..."></textarea>
+            </div>
+            <button class="submit-btn" onclick="evaluarOpinion()">Evaluar</button>
         </div>
         
-        <div class="result-container" id="result-container">
-            <div class="result-box hidden" id="result-box">
-                <h3>Resultado:</h3>
-                <p id="opinion-text"></p>
-                <div class="sentiment" id="sentiment">
-                    <span id="result-label"></span>
+        <div class="result-container hidden" id="resultado">
+            <div class="result-box">
+                <div id="opinion-text"></div>
+                <div class="sentiment">
+                    <span id="sentiment-value" class="neutral">PROCESANDO...</span>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        document.getElementById('opinion-form').addEventListener('submit', async function(event) {
-            event.preventDefault();
-            
+        function evaluarOpinion() {
             const opinion = document.getElementById('opinion').value;
-            const resultBox = document.getElementById('result-box');
-            
-            try {
-                const response = await fetch('/evaluar', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ opinion: opinion })
-                });
-                
-                const data = await response.json();
+            if (!opinion) {
+                alert('Por favor ingresa una opinión');
+                return;
+            }
+
+            fetch('/evaluar', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ opinion: opinion }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultado = document.getElementById('resultado');
+                resultado.classList.remove('hidden');
                 
                 document.getElementById('opinion-text').textContent = data.opinion;
-                const resultLabel = document.getElementById('result-label');
-                resultLabel.textContent = data.resultado;
                 
-                // Agregar clase de color según el resultado
-                resultLabel.className = '';
+                const sentimentValue = document.getElementById('sentiment-value');
+                sentimentValue.textContent = data.resultado;
+                
+                sentimentValue.className = '';
                 if (data.resultado === 'POSITIVO') {
-                    resultLabel.classList.add('positive');
+                    sentimentValue.classList.add('positive');
                 } else if (data.resultado === 'NEGATIVO') {
-                    resultLabel.classList.add('negative');
-                } else if (data.resultado === 'NEUTRO') {
-                    resultLabel.classList.add('neutral');
+                    sentimentValue.classList.add('negative');
+                } else {
+                    sentimentValue.classList.add('neutral');
                 }
-                
-                resultBox.classList.remove('hidden');
-            } catch (error) {
+            })
+            .catch(error => {
                 console.error('Error:', error);
-            }
-        });
+                alert('Error al evaluar la opinión');
+            });
+        }
     </script>
 </body>
 </html>

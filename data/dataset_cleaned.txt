@@ -1111,7 +1111,7 @@ Un producto promedio, sin puntos fuertes. ; 0
 Funciona como debería, sin sorpresas. ; 0
 Ni bueno ni malo, simplemente está bien. ; 0
 Cumple con lo que promete, pero sin impresionar. ; 0
-No me encantó, pero tampoco me desagradó. ; 0
+No me encanto, pero tampoco me desagrado. ; 0
 Una experiencia neutral, sin sobresaltos. ; 0
-No genera entusiasmo ni decepción. ; 0
-Producto estándar, sin características destacables. ; 0
+No genera entusiasmo ni decepcion. ; 0
+Producto estandar, sin caracteristicas destacables. ; 0

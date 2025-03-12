@@ -1,3 +1,4 @@
+import pickle
 import tensorflow as tf
 import numpy as np
 import os
@@ -25,7 +26,8 @@ def cargar_datos(archivo):
 
 # Preprocesar los datos
 def preprocesar_datos(preguntas, respuestas):
-    tokenizer = tf.keras.layers.TextVectorization()
+    # Usar TextVectorization para mejor rendimiento
+    tokenizer = tf.keras.layers.TextVectorization(output_mode='int')
     tokenizer.adapt(preguntas)
     x_train = tokenizer(preguntas)
     y_train = respuestas
@@ -51,13 +53,31 @@ def guardar_modelo(model, path='models/modelo.keras'):
     model.save(path)
     print(f'✅ Modelo entrenado y guardado en {path} 🚀')
 
-# Guardar el tokenizer en formato JSON
-def guardar_tokenizer(tokenizer, path='models/tokenizer.json'):
+# Guardar el tokenizer completo
+def guardar_tokenizer(tokenizer, path='models/tokenizer'):
+    # Guardar vocabulario como JSON para compatibilidad
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    tokenizer_config = tokenizer.get_config()
-    with open(path, 'w', encoding='utf-8') as f:
-        json.dump(tokenizer_config, f, ensure_ascii=False)
-    print(f'✅ Tokenizer guardado en {path} 🚀')
+    vocab = tokenizer.get_vocabulary()
+    word_index = {word: idx for idx, word in enumerate(vocab)}
+    
+    # Guardar configuración
+    config = tokenizer.get_config()
+    
+    # Guardar todo en un solo archivo con formato compatible
+    tokenizer_data = {
+        "config": config,
+        "vocabulary": vocab,
+        "word_index": word_index
+    }
+    
+    with open(f"{path}.json", 'w', encoding='utf-8') as f:
+        json.dump(tokenizer_data, f, ensure_ascii=False, indent=2)
+        
+    # También guardar en formato pickle para uso directo
+    with open(f"{path}.pkl", 'wb') as f:
+        pickle.dump(tokenizer, f)
+        
+    print(f'✅ Tokenizer guardado en {path}.json y {path}.pkl 🚀')
 
 # Probar el chatbot
 def probar_chatbot(model, tokenizer):
