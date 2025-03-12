@@ -1,21 +1,21 @@
 from flask import Flask, request, jsonify, render_template
 import tensorflow as tf
 import numpy as np
-import pickle
+import json
 
 # Cargar modelo entrenado
 modelo_path = "models/modelo.keras"
 modelo = tf.keras.models.load_model(modelo_path)
 
 # Cargar tokenizer entrenado
-with open("models/tokenizer.pkl", "rb") as f:
-    tokenizer = pickle.load(f)
-
+with open("models/tokenizer.json", "r") as f:
+    tokenizer_data = json.load(f)
+    
 app = Flask(__name__)
 
 @app.route("/")  # Ruta raíz
 def home():
-    return render_template('index.html')
+    return render_template('app.html')
 
 @app.route('/evaluar', methods=['POST'])
 def evaluar_opinion():
