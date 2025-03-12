@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opiniones Diego</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Opiniones Diego</h1>
+        <div class="form-container">
+            <form id="opinion-form">
+                <div class="input-group">
+                    <textarea id="opinion" placeholder="Escribe tu opinión aquí..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Evaluar opinión</button>
+            </form>
+        </div>
+        
+        <div class="result-container" id="result-container">
+            <div class="result-box hidden" id="result-box">
+                <h3>Resultado:</h3>
+                <p id="opinion-text"></p>
+                <div class="sentiment" id="sentiment">
+                    <span id="result-label"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('opinion-form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const opinion = document.getElementById('opinion').value;
+            const resultBox = document.getElementById('result-box');
+            
+            try {
+                const response = await fetch('/evaluar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ opinion: opinion })
+                });
+                
+                const data = await response.json();
+                
+                document.getElementById('opinion-text').textContent = data.opinion;
+                const resultLabel = document.getElementById('result-label');
+                resultLabel.textContent = data.resultado;
+                
+                // Agregar clase de color según el resultado
+                resultLabel.className = '';
+                if (data.resultado === 'POSITIVO') {
+                    resultLabel.classList.add('positive');
+                } else if (data.resultado === 'NEGATIVO') {
+                    resultLabel.classList.add('negative');
+                } else if (data.resultado === 'NEUTRO') {
+                    resultLabel.classList.add('neutral');
+                }
+                
+                resultBox.classList.remove('hidden');
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html>
