@@ -1,6 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f5f5f5;
+    background-image: url('https://us-tuna-sounds-images.voicemod.net/834747e8-21f3-45da-8adc-5d1c27de528a-1673403789702.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     color: #333;
@@ -30,6 +32,7 @@ h1 {
 
 .input-group {
     margin-bottom: 15px;
+    padding-right: 25px;
 }
 
 textarea {
@@ -39,7 +42,7 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 16px;
-    resize: vertical;
+    resize: none;
 }
 
 .submit-btn {
