@@ -55,29 +55,32 @@ def guardar_modelo(model, path='models/modelo.keras'):
 
 # Guardar el tokenizer completo
 def guardar_tokenizer(tokenizer, path='models/tokenizer'):
-    # Guardar vocabulario como JSON para compatibilidad
+    """Save tokenizer in multiple formats with proper Unicode handling"""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    vocab = tokenizer.get_vocabulary()
-    word_index = {word: idx for idx, word in enumerate(vocab)}
     
-    # Guardar configuración
+    # 1. Save vocabulary and configuration separately (most reliable)
+    vocab = tokenizer.get_vocabulary()
     config = tokenizer.get_config()
     
-    # Guardar todo en un solo archivo con formato compatible
     tokenizer_data = {
         "config": config,
         "vocabulary": vocab,
-        "word_index": word_index
+        "word_index": {word: idx for idx, word in enumerate(vocab)}
     }
     
+    # Save JSON with explicit UTF-8 encoding
     with open(f"{path}.json", 'w', encoding='utf-8') as f:
         json.dump(tokenizer_data, f, ensure_ascii=False, indent=2)
-        
-    # También guardar en formato pickle para uso directo
-    with open(f"{path}.pkl", 'wb') as f:
-        pickle.dump(tokenizer, f)
-        
-    print(f'✅ Tokenizer guardado en {path}.json y {path}.pkl 🚀')
+    
+    # 2. Instead of pickling the layer directly, save its state that we can restore
+    try:
+        # Save vocabulary as text file with explicit UTF-8 encoding
+        with open(f"{path}_vocab.txt", 'w', encoding='utf-8') as f:
+            for word in vocab:
+                f.write(f"{word}\n")
+        print(f'✅ Tokenizer guardado en {path}.json y {path}_vocab.txt 🚀')
+    except Exception as e:
+        print(f"⚠️ Error al guardar vocabulario como texto: {e}")
 
 # Probar el chatbot
 def probar_chatbot(model, tokenizer):
@@ -92,7 +95,7 @@ def probar_chatbot(model, tokenizer):
         print("Respuesta: ", categorias[indice])
 
 if __name__ == "__main__":
-    archivo_datos = "data/dataset_cleaned.txt"  # Asegúrate de tener un archivo con preguntas y respuestas
+    archivo_datos = "data/datasetDefinitivo.txt"  # Asegúrate de tener un archivo con preguntas y respuestas
     preguntas, respuestas = cargar_datos(archivo_datos)
     x_train, y_train, tokenizer = preprocesar_datos(preguntas, respuestas)
     modelo = construir_modelo(tokenizer)
