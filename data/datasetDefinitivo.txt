@@ -5048,6 +5048,7 @@ Una tomadura de pelo en toda regla. ; 2
 Me engañaron con la descripción del producto. ; 2
 No funciona como debería, una vergüenza. ; 2
 Materiales baratos y mal ensamblados. ; 2
+No me gusta. ; 2
 El producto está bien, aunque esperaba más. ; 0
 El servicio fue aceptable, nada especial. ; 0
 Cumple con lo prometido, pero no destaca. ; 0
