@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify # type: ignore
 import tensorflow as tf
 import json
 import numpy as np
